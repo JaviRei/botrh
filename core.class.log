@@ -1,11 +1,11 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '5213322542808@s.whatsapp.net',
+    remoteJid: '5213318107706@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0B5B6D565B94F402B20',
+    id: '3EB068C2BDEEDB4EDDF796',
     participant: undefined
   },
-  messageTimestamp: 1706131895,
+  messageTimestamp: 1706137393,
   pushName: 'Javi Enriquez',
   broadcast: false,
   message: Message {
@@ -15,12 +15,13 @@
       deviceListMetadataVersion: 2
     }
   },
+  verifiedBizName: 'Javi Enriquez',
   body: 'hola',
-  from: '5213322542808'
+  from: '5213318107706'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_2ccc2fc0-351a-47cc-8852-7ec38c22f801',
-  keyword: 'key_fcbca5cc-22ca-46ee-bb86-5dd8e13c37a4',
+  ref: 'ans_a6146c72-f4d2-47b0-8db4-b530c63ce662',
+  keyword: 'key_0872e4b1-e2cb-4e2c-8e5a-57d34d6f5171',
   answer: 'Hola 👋, Bienvenido a Shades de México,\n' +
     'este es el bot de *recursos humanos*\n' +
     'Estoy aqui para proporcionarte información sobre nuestras vacantes activas\n' +
@@ -37,11 +38,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '9baff7bd698d6e5b1f9941f6c1b6b6c1'
+  refSerialize: 'c7a4b044439f4425da08bc218a86b3c0'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5b1bc1fe-bd83-4f70-8c69-e9cf9e107f5f',
-  keyword: 'ans_2ccc2fc0-351a-47cc-8852-7ec38c22f801',
+  ref: 'ans_a122f325-04a0-4b75-8f79-418841d58f6b',
+  keyword: 'ans_a6146c72-f4d2-47b0-8db4-b530c63ce662',
   answer: 'Selecciona la opción deseada\n' +
     '1️⃣ Vacantes Activas\n' +
     '2️⃣ Preguntas Frecuentes\n' +
@@ -63,16 +64,16 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'feb6f59782322e48c1994917293ac781'
+  refSerialize: '01d2abd7099f81678e73709269d80144'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5213322542808@s.whatsapp.net',
+    remoteJid: '5213318107706@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0A1534826BCAC5EC8E7',
+    id: '3EB015FEB5DB0D46A28E3B',
     participant: undefined
   },
-  messageTimestamp: 1706131896,
+  messageTimestamp: 1706137395,
   pushName: 'Javi Enriquez',
   broadcast: false,
   message: Message {
@@ -82,12 +83,13 @@
       deviceListMetadataVersion: 2
     }
   },
+  verifiedBizName: 'Javi Enriquez',
   body: '1',
-  from: '5213322542808'
+  from: '5213318107706'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_ae18c207-ac15-438f-b283-46b31b177d73',
-  keyword: 'key_70d02c15-6cf6-4a7b-80c3-593159e0c15a',
+  ref: 'ans_6b4fb1ea-6694-4733-9548-94ce1e0af670',
+  keyword: 'key_d19cbba8-31eb-44d4-b892-c9165e2da8de',
   answer: 'Seleciona la vacante de tu interes',
   options: {
     media: null,
@@ -101,11 +103,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'e3eb4209116c652a5eebbb6b5eed9587'
+  refSerialize: 'e6b98fa912334bbac7e9b88bf6e07551'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_797b57e3-bdde-49b9-bb84-f7dc1d4959e9',
-  keyword: 'ans_ae18c207-ac15-438f-b283-46b31b177d73',
+  ref: 'ans_4616a62c-4b64-416f-a270-7e778a81ab31',
+  keyword: 'ans_6b4fb1ea-6694-4733-9548-94ce1e0af670',
   answer: '1️⃣ Auxiiar de Almacen General',
   options: {
     media: null,
@@ -119,11 +121,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'a57886d82787b8425d2ebecbc65d95e2'
+  refSerialize: '23da8ef5b0448e5f4b831e1ab580bcd8'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_cf237d72-e00a-41e6-86f4-389b7a2ff9ce',
-  keyword: 'ans_797b57e3-bdde-49b9-bb84-f7dc1d4959e9',
+  ref: 'ans_daa794b6-199d-4483-95d2-02345596b223',
+  keyword: 'ans_4616a62c-4b64-416f-a270-7e778a81ab31',
   answer: '2️⃣ Auxiiar de Almacen & Descargas',
   options: {
     media: null,
@@ -137,11 +139,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '37db82f335ab3d98c9983da41902c15b'
+  refSerialize: '6a183be8e532fce88567d366b3c981b5'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_81dbbd22-8af2-4bd1-a3fb-beaba64d6dc2',
-  keyword: 'ans_cf237d72-e00a-41e6-86f4-389b7a2ff9ce',
+  ref: 'ans_2bf054bb-7d89-4cdf-90d6-212b6667b4f7',
+  keyword: 'ans_daa794b6-199d-4483-95d2-02345596b223',
   answer: '3️⃣ Costureros & Confección de Cortinas',
   options: {
     media: null,
@@ -157,22 +159,21 @@
       [Object], [Object], [Object],
       [Object], [Object], [Object],
       [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object]
+      [Object], [Object], [Object]
     ],
     keyword: {},
     callback: false
   },
-  refSerialize: '761dcd525287c7a198fd8e209be76c06'
+  refSerialize: 'c772c3a7a845a6a5bfe3bb4219df2831'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5213322542808@s.whatsapp.net',
+    remoteJid: '5213318107706@s.whatsapp.net',
     fromMe: false,
-    id: '3EB06B8B321E12AF236EE7',
+    id: '3EB0062DAD37FE7AAEAD43',
     participant: undefined
   },
-  messageTimestamp: 1706131898,
+  messageTimestamp: 1706137397,
   pushName: 'Javi Enriquez',
   broadcast: false,
   message: Message {
@@ -182,12 +183,13 @@
       deviceListMetadataVersion: 2
     }
   },
+  verifiedBizName: 'Javi Enriquez',
   body: '1',
-  from: '5213322542808'
+  from: '5213318107706'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_8e44369a-749a-411a-928c-c6749e02d1fd',
-  keyword: 'key_b3c5f977-c081-4b05-b188-6dbfef768bab',
+  ref: 'ans_8c74200e-c0af-4c42-bd8f-cee581a8f3af',
+  keyword: 'key_f94bc180-9938-4119-8ab6-94b4267a959c',
   answer: '*🕛 REQUISITOS*\n' +
     'Nuestros horarios son: \n' +
     '🔸Lunes a Viernes de *9:00 am a 6:00 pm*\n' +
@@ -197,18 +199,18 @@
     buttons: [],
     capture: false,
     child: null,
-    delay: 2000,
+    delay: 1500,
     idle: null,
     ref: null,
     nested: [],
     keyword: {},
     callback: false
   },
-  refSerialize: '3066b6b48b08607e91ae064017f61e7c'
+  refSerialize: 'b4d3e511557e3d5fb19a20abf59cd992'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_76b42206-19ba-4106-acfb-cebd32345411',
-  keyword: 'ans_8e44369a-749a-411a-928c-c6749e02d1fd',
+  ref: 'ans_6fb500f5-f8f1-455b-9ac9-7c03d201c85e',
+  keyword: 'ans_8c74200e-c0af-4c42-bd8f-cee581a8f3af',
   answer: '*🕛 HORARIO*\n' +
     'Nuestros horarios son: \n' +
     '🔸Lunes a Viernes de *9:00 am a 6:00 pm*\n' +
@@ -218,18 +220,18 @@
     buttons: [],
     capture: false,
     child: null,
-    delay: 2000,
+    delay: 1000,
     idle: null,
     ref: null,
     nested: [],
     keyword: {},
     callback: false
   },
-  refSerialize: 'a469569681a91f643670e39d10e04a9f'
+  refSerialize: '57ea088daf696d9901866703a29981f7'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_25cb4b4a-e28f-4e8d-ac35-c102cf1ae62f',
-  keyword: 'ans_76b42206-19ba-4106-acfb-cebd32345411',
+  ref: 'ans_854e34e1-1cac-4326-837b-6297dde222e8',
+  keyword: 'ans_6fb500f5-f8f1-455b-9ac9-7c03d201c85e',
   answer: '*📌 UBICACIÓN*\n' +
     'Es *Calle 4 #2617*,\n' +
     'Colonia *Zona industrial*\n' +
@@ -240,18 +242,18 @@
     buttons: [],
     capture: false,
     child: null,
-    delay: 2000,
+    delay: 1000,
     idle: null,
     ref: null,
     nested: [],
     keyword: {},
     callback: false
   },
-  refSerialize: 'a9babd085d11efac1d5ef343e6961122'
+  refSerialize: 'ebb5c0193066d50f0e55af2fe05b45f0'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_d1ada78b-4abb-4372-bfb7-b59265719682',
-  keyword: 'ans_25cb4b4a-e28f-4e8d-ac35-c102cf1ae62f',
+  ref: 'ans_89833a64-c8ad-4ee8-b549-b8494afb3dcc',
+  keyword: 'ans_854e34e1-1cac-4326-837b-6297dde222e8',
   answer: '__call_action__',
   options: {
     media: null,
@@ -265,12 +267,12 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'f03160d1832b00c1ab22d24e40efc5c6'
+  refSerialize: 'de11fcbb2a2a6d3e4551cdd60a54d159'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_d4266d00-9f03-4901-84c5-e54134139d64',
-  keyword: 'ans_d1ada78b-4abb-4372-bfb7-b59265719682',
-  answer: 'www.google.com',
+  ref: 'ans_2e1f4f50-aa3d-4178-bbab-972f80f65302',
+  keyword: 'ans_89833a64-c8ad-4ee8-b549-b8494afb3dcc',
+  answer: 'Ingresa tu correo',
   options: {
     media: 'https://drive.google.com/uc?id=1ll-DP_ngGEY_LDdLk71ZeBDYlGshDLZw',
     buttons: [],
@@ -281,175 +283,49 @@
     ref: null,
     nested: [],
     keyword: {},
-    callback: false
+    callback: true
   },
-  refSerialize: '1991af0368aa4ec43027ce2beb6fdc31'
+  refSerialize: '75ba0611f3b406286aef04ee86931939'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5213322542808@s.whatsapp.net',
+    remoteJid: '5213318107706@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0FD8BB532C5A17DA795',
+    id: '3EB0780834B6C80C33EDA9',
     participant: undefined
   },
-  messageTimestamp: 1706131961,
+  messageTimestamp: 1706137407,
   pushName: 'Javi Enriquez',
   broadcast: false,
   message: Message {
-    conversation: 'ñ',
+    conversation: 'javi',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'ñ',
-  from: '5213322542808'
+  verifiedBizName: 'Javi Enriquez',
+  body: 'javi',
+  from: '5213318107706'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5213322542808@s.whatsapp.net',
+    remoteJid: '5213318107706@s.whatsapp.net',
     fromMe: false,
-    id: '3EB04D8E22ED9C3AE215BF',
+    id: '3EB0C6541A76DAB01C8CF0',
     participant: undefined
   },
-  messageTimestamp: 1706131965,
+  messageTimestamp: 1706137413,
   pushName: 'Javi Enriquez',
   broadcast: false,
   message: Message {
-    conversation: 'hola',
+    conversation: 'javi@',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'hola',
-  from: '5213322542808'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_2ccc2fc0-351a-47cc-8852-7ec38c22f801',
-  keyword: 'key_fcbca5cc-22ca-46ee-bb86-5dd8e13c37a4',
-  answer: 'Hola 👋, Bienvenido a Shades de México,\n' +
-    'este es el bot de *recursos humanos*\n' +
-    'Estoy aqui para proporcionarte información sobre nuestras vacantes activas\n' +
-    '¿Cómo puedo ayudarte?',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '9baff7bd698d6e5b1f9941f6c1b6b6c1'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5b1bc1fe-bd83-4f70-8c69-e9cf9e107f5f',
-  keyword: 'ans_2ccc2fc0-351a-47cc-8852-7ec38c22f801',
-  answer: 'Selecciona la opción deseada\n' +
-    '1️⃣ Vacantes Activas\n' +
-    '2️⃣ Preguntas Frecuentes\n' +
-    '0️⃣ Aplicar a Vacante',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object]
-    ],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'feb6f59782322e48c1994917293ac781'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5213322542808@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0AE5C10776AD6532AB4',
-    participant: undefined
-  },
-  messageTimestamp: 1706131969,
-  pushName: 'Javi Enriquez',
-  broadcast: false,
-  message: Message {
-    conversation: '2',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '2',
-  from: '5213322542808'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_aedf9d3f-8872-4c06-9a33-26b2449d99bb',
-  keyword: 'key_44673889-6c0f-42e5-b9a7-ec57945aeed7',
-  answer: '¡Entiendo que puedas tener preguntas! Estoy aquí para ayudarte.\n' +
-    'Estas son algunas preguntas frecuentes:',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'c0a198db1ad8e25961a25affbe5ce5bd'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_7a23d27c-b096-4f7e-b4b2-6a8e6fc026b1',
-  keyword: 'ans_aedf9d3f-8872-4c06-9a33-26b2449d99bb',
-  answer: '*Selecciona la opción de tu interes*\n' +
-    '1️⃣ ¿Cuales son los horarios de trabajo?\n' +
-    '2️⃣ ¿Cual es la ubicación?\n' +
-    '3️⃣ ¿Cuales son los requisitos\n' +
-    '4️⃣ ¿',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '9716e66b5dfef3376359934916de1f8f'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5213322542808@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0F333149DB7AC6C7DD4',
-    participant: undefined
-  },
-  messageTimestamp: 1706131973,
-  pushName: 'Javi Enriquez',
-  broadcast: false,
-  message: Message {
-    conversation: '1',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '1',
-  from: '5213322542808'
+  verifiedBizName: 'Javi Enriquez',
+  body: 'javi@',
+  from: '5213318107706'
 }

@@ -1,5 +1,7 @@
 const { addKeyword } = require('@bot-whatsapp/bot')
 
+let correo 
+
  const flowAlmacen = addKeyword(['1'])
 
  .addAnswer(
@@ -7,14 +9,14 @@ const { addKeyword } = require('@bot-whatsapp/bot')
     'Nuestros horarios son: ',
     '🔸Lunes a Viernes de *9:00 am a 6:00 pm*',
     '🔸Sábados *8:30 am a 12:30 pm*'
-],{delay:2000})
+],{delay:1500})
 
 .addAnswer(
     ['*🕛 HORARIO*',
      'Nuestros horarios son: ',
      '🔸Lunes a Viernes de *9:00 am a 6:00 pm*',
      '🔸Sábados *8:30 am a 12:30 pm*'
-    ],{delay:2000})
+    ],{delay:1000})
 
 .addAnswer(
     ['*📌 UBICACIÓN*',
@@ -22,7 +24,7 @@ const { addKeyword } = require('@bot-whatsapp/bot')
      'Colonia *Zona industrial*',
      'Entre calles Av. Lopéz de Legaspi & Calle 5',
      'Cerca de estación tren ligero *Urdañeta*'
-    ],{delay:2000})
+    ],{delay:1000})
 
 .addAction(async (ctx, { provider }) => {
     const id = ctx.key.remoteJid;
@@ -30,13 +32,21 @@ const { addKeyword } = require('@bot-whatsapp/bot')
     })
     
 
-.addAnswer('www.google.com',
+.addAnswer('Ingresa tu correo',
     {
         capture:true,
          media:'https://drive.google.com/uc?id=1ll-DP_ngGEY_LDdLk71ZeBDYlGshDLZw'
          
-    })
+    },(ctx,{fallBack})=>{
 
+        if(!ctx.body.includes('@')){
+            return fallBack()
+        }
+
+        console.log("Este fue el correo",ctx.body)
+        correo=ctx.body;
+        console.log(`esta es la variable correo ${correo}`)
+    })
 
 
 
