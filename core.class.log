@@ -1,0 +1,251 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5213322542808@s.whatsapp.net',
+    fromMe: false,
+    id: '3A4E93A58040D463975E',
+    participant: undefined
+  },
+  messageTimestamp: 1706065566,
+  pushName: 'Javi Enriquez',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola hola',
+  from: '5213322542808'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_d59b6083-49bf-4977-871c-b0e13d59fba7',
+  keyword: 'key_771ff0d6-92e2-43f6-8cfc-6848769047ee',
+  answer: 'Bienvenido a Shades de México',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '711f769dc19d7de429a0b79724c27d62'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_40791fec-0d6b-495e-af17-6355e9ec45fb',
+  keyword: 'ans_d59b6083-49bf-4977-871c-b0e13d59fba7',
+  answer: 'Este es el chatbot de Recursos Humanos',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'cdbaa0d11c885d5540c17f1b490e5270'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1070bdd1-a33b-4b67-8f12-958eca81a133',
+  keyword: 'ans_40791fec-0d6b-495e-af17-6355e9ec45fb',
+  answer: 'Selecciona la opción deseada\n' +
+    '1️⃣ Información de vacantes\n' +
+    '2️⃣ Horarios\n' +
+    '3️⃣ Ubicación\n' +
+    '👉 Aplicar a Vacante',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'eb4492e9f6e9db53e9b2342beae2230c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5213322542808@s.whatsapp.net',
+    fromMe: false,
+    id: '3A233376B7B492192E77',
+    participant: undefined
+  },
+  messageTimestamp: 1706065569,
+  pushName: 'Javi Enriquez',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '5213322542808'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_45c72ccf-d890-4028-8d62-fb26a5d4e3b5',
+  keyword: 'key_28504473-a09a-4540-a3e1-99709f0a543e',
+  answer: 'Seleciona la vacante de tu interes',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '3af36515b50a967ea24b742181dafa2b'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_efd87577-ab1b-4bb5-adb0-e3b734a05f3a',
+  keyword: 'ans_45c72ccf-d890-4028-8d62-fb26a5d4e3b5',
+  answer: '1️⃣ Auxiiar de Almacen General\n' +
+    '2️⃣ Auxiiar de Almacen & Descargas\n' +
+    '3️⃣ Costureros & Confección de Cortinas',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'd5d1cfe6786110314fb7582d2939cd4c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5213322542808@s.whatsapp.net',
+    fromMe: false,
+    id: '3A49B1E6C68E1B9B9A5D',
+    participant: undefined
+  },
+  messageTimestamp: 1706065571,
+  pushName: 'Javi Enriquez',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '5213322542808'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_3d099979-8000-4b19-bbef-dd2c8857ede5',
+  keyword: 'key_9afc6f8d-27ed-49f3-8e00-8f32c91e6c06',
+  answer: 'Nuestra vacante de Almacenista realiza funviones como surtido de faacturas, ingresos y egresos de pedidos, etc',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'd425369e1524616a836be9d0b574d199'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8942b0f5-53e7-4ac0-9ee2-f02f7fdb3fc3',
+  keyword: 'ans_3d099979-8000-4b19-bbef-dd2c8857ede5',
+  answer: '*🕛 HORARIO*\n' +
+    'Nuestros horarios son de Lunes a Viernes de 9:00 am a 6:00 pm\n' +
+    'Sábados 8:30 am a 12:30 pm\n' +
+    'Con 30 min de comida',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '119921f5cf850f51c4f16f848a51b3b6'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_3bf4f22f-edd7-4118-b214-5e6cb58ca376',
+  keyword: 'ans_8942b0f5-53e7-4ac0-9ee2-f02f7fdb3fc3',
+  answer: '*📌 UBICACIÓN*\n' +
+    'Nuestra ubicación es Calle 4 #2617, Colonia Zona industrial\n' +
+    'Entre calles Av. Lopéz de Legaspi & Calle 5',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '6a22682349e4360f83a75b2aed8e7d58'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_22f0809d-b572-4869-b8a2-05e748a615cd',
+  keyword: 'ans_3bf4f22f-edd7-4118-b214-5e6cb58ca376',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '7deaf31cae33443b79029b6ba4f3e538'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_441b5ebc-f966-4775-aa29-003b36beae29',
+  keyword: 'ans_22f0809d-b572-4869-b8a2-05e748a615cd',
+  answer: 'Esta es nuestra oferta laboral ',
+  options: {
+    media: 'https://images.unsplash.com/photo-1682687980976-fec0915c6177?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2054ef24ad0fe49d332c5a1a99112b20'
+}
