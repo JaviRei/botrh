@@ -1,5 +1,11 @@
+
 const { createBot, createProvider, createFlow, addKeyword } = require('@bot-whatsapp/bot')
 
+const SHEET_KEY = '1dl0o_oLC_AdQGGN99zLvQuReysbS1HU9c0dNj9EzH3Q'
+const { GoogleSpreadsheet } = require('google-spreadsheet');
+const fs = require('fs');
+const doc = new GoogleSpreadsheet(SHEET_KEY)
+const CREDENTIALS = JSON.parse(fs.readFileSync('./credenciales.json'))
 
 const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
@@ -10,8 +16,9 @@ const MockAdapter = require('@bot-whatsapp/database/mock')
 const {flowAlmacen} = require('./flows/flowAlmacen.js')
 const {flowPreguntas} = require('./flows/flowPreguntas.js')
 const {flowDescargas} = require('./flows/flowDescargas.js')
-const {flowCostura} = require('./flows/flowCostura')
-const {flowPruebas} = require('./flows/flowPruebas')
+const {flowCostura} = require('./flows/flowCostura.js')
+const {flowSheet} = require('./flows/flowSheet.js')
+
 
 
 
@@ -35,12 +42,12 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo','informaciÃ³n','info','dÃ
         ],
         null,
         null,
-        [flowInfo,flowPreguntas,flowPruebas]
+        [flowInfo,flowPreguntas,flowSheet]
     )
 
 const main = async () => {
     const adapterDB = new MockAdapter()
-    const adapterFlow = createFlow([flowPrincipal,flowPruebas])
+    const adapterFlow = createFlow([flowPrincipal,flowSheet])
     const adapterProvider = createProvider(BaileysProvider)
 
     createBot({
