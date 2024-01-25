@@ -11,6 +11,7 @@ const {flowAlmacen} = require('./flows/flowAlmacen.js')
 const {flowPreguntas} = require('./flows/flowPreguntas.js')
 const {flowDescargas} = require('./flows/flowDescargas.js')
 const {flowCostura} = require('./flows/flowCostura')
+const {flowPruebas} = require('./flows/flowPruebas')
 
 
 
@@ -23,7 +24,7 @@ const flowInfo = addKeyword(['1']).addAnswer('Seleciona la vacante de tu interes
     [flowAlmacen,flowDescargas,flowCostura])
 
 
-const flowPrincipal = addKeyword(['hola', 'ole', 'alo','información','info','día'])
+const flowPrincipal = addKeyword(['hola', 'ole', 'alo','información','info','día','informacion'])
     .addAnswer(['Hola 👋, Bienvenido a Shades de México,','este es el bot de *recursos humanos*','Estoy aqui para proporcionarte información sobre nuestras vacantes activas','¿Cómo puedo ayudarte?'])
     .addAnswer(
         [
@@ -34,12 +35,12 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo','información','info','d�
         ],
         null,
         null,
-        [flowInfo,flowPreguntas]
+        [flowInfo,flowPreguntas,flowPruebas]
     )
 
 const main = async () => {
     const adapterDB = new MockAdapter()
-    const adapterFlow = createFlow([flowPrincipal])
+    const adapterFlow = createFlow([flowPrincipal,flowPruebas])
     const adapterProvider = createProvider(BaileysProvider)
 
     createBot({

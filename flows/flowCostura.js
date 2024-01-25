@@ -14,6 +14,7 @@ const { addKeyword } = require('@bot-whatsapp/bot')
     ])
 .addAction(async (ctx, { provider }) => {
     const id = ctx.key.remoteJid;
+    console.log(id)
     await provider.sendLocation(id, 20.63921097868601, -103.3686870002755)
 }).addAnswer('Esta es nuestra oferta laboral ',
  {

@@ -1,6 +1,7 @@
 const { addKeyword } = require('@bot-whatsapp/bot')
 
-let correo 
+
+
 
  const flowAlmacen = addKeyword(['1'])
 
@@ -16,7 +17,10 @@ let correo
      'Nuestros horarios son: ',
      '🔸Lunes a Viernes de *9:00 am a 6:00 pm*',
      '🔸Sábados *8:30 am a 12:30 pm*'
-    ],{delay:1000})
+    ],
+    {delay:1000},
+   )
+
 
 .addAnswer(
     ['*📌 UBICACIÓN*',
@@ -32,12 +36,13 @@ let correo
     })
     
 
-.addAnswer('Ingresa tu correo',
+.addAnswer('Imagen del sueldo',
     {
+        //Aqui ira la imagen del sueldo
         capture:true,
          media:'https://drive.google.com/uc?id=1ll-DP_ngGEY_LDdLk71ZeBDYlGshDLZw'
          
-    },(ctx,{fallBack})=>{
+    }/*,(ctx,{fallBack})=>{
 
         if(!ctx.body.includes('@')){
             return fallBack()
@@ -46,7 +51,7 @@ let correo
         console.log("Este fue el correo",ctx.body)
         correo=ctx.body;
         console.log(`esta es la variable correo ${correo}`)
-    })
+    }*/)
 
 
 
