@@ -1,11 +1,11 @@
 
-const { createBot, createProvider, createFlow, addKeyword } = require('@bot-whatsapp/bot')
+const { createBot, createProvider, createFlow, addKeyword, EVENTS } = require('@bot-whatsapp/bot')
 
-const SHEET_KEY = '1dl0o_oLC_AdQGGN99zLvQuReysbS1HU9c0dNj9EzH3Q'
-const { GoogleSpreadsheet } = require('google-spreadsheet');
-const fs = require('fs');
-const doc = new GoogleSpreadsheet(SHEET_KEY)
-const CREDENTIALS = JSON.parse(fs.readFileSync('./credenciales.json'))
+// const SHEET_KEY = '1dl0o_oLC_AdQGGN99zLvQuReysbS1HU9c0dNj9EzH3Q'
+// const { GoogleSpreadsheet } = require('google-spreadsheet');
+// const fs = require('fs');
+// const doc = new GoogleSpreadsheet(SHEET_KEY)
+// const CREDENTIALS = JSON.parse(fs.readFileSync('./credenciales.json'))
 
 const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
@@ -17,7 +17,7 @@ const {flowAlmacen} = require('./flows/flowAlmacen.js')
 const {flowPreguntas} = require('./flows/flowPreguntas.js')
 const {flowDescargas} = require('./flows/flowDescargas.js')
 const {flowCostura} = require('./flows/flowCostura.js')
-const {flowSheet} = require('./flows/flowSheet.js')
+const {flowSheet, flowEdit_nombre} = require('./flows/flowSheet.js')
 
 
 
@@ -30,15 +30,15 @@ const flowInfo = addKeyword(['1']).addAnswer('Seleciona la vacante de tu interes
     null,
     [flowAlmacen,flowDescargas,flowCostura])
 
-
-const flowPrincipal = addKeyword(['hola', 'ole', 'alo','información','info','día','informacion'])
+//['hola', 'ole', 'alo','información','info','día','informacion']
+const flowPrincipal = addKeyword(EVENTS.WELCOME)
     .addAnswer(['Hola 👋, Bienvenido a Shades de México,','este es el bot de *recursos humanos*','Estoy aqui para proporcionarte información sobre nuestras vacantes activas','¿Cómo puedo ayudarte?'])
     .addAnswer(
         [
             'Selecciona la opción deseada',
             '1️⃣ Vacantes Activas',
             '2️⃣ Preguntas Frecuentes',
-            '0️⃣ Aplicar a Vacante'
+            '3️⃣ Aplicar a Vacante'
         ],
         null,
         null,
@@ -47,7 +47,7 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo','información','info','d�
 
 const main = async () => {
     const adapterDB = new MockAdapter()
-    const adapterFlow = createFlow([flowPrincipal,flowSheet])
+    const adapterFlow = createFlow([flowPrincipal])
     const adapterProvider = createProvider(BaileysProvider)
 
     createBot({
@@ -60,3 +60,5 @@ const main = async () => {
 }
 
 main()
+
+module.exports= {flowPrincipal}

@@ -18,7 +18,7 @@ const { addKeyword } = require('@bot-whatsapp/bot')
     await provider.sendLocation(id, 20.63921097868601, -103.3686870002755)
 }).addAnswer('Esta es nuestra oferta laboral ',
  {
-    media:'https://drive.google.com/uc?id=1EcCadvFDX-edPCOOAsGztQD8UgNvo7Kn'
+    media:'https://drive.google.com/uc?id=10Po9YLYF0a_NP2BmNgBkfddaMyv3jrs_'
  })
 
 module.exports = {flowCostura}

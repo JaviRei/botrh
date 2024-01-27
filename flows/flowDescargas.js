@@ -18,7 +18,7 @@ const { addKeyword } = require('@bot-whatsapp/bot')
 }).addAnswer('Esta es nuestra oferta laboral ',
 {
     capture:true,
-    media:'https://images.unsplash.com/photo-1682687980976-fec0915c6177?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' 
+    media:'https://drive.google.com/uc?id=1yTyNguegwaJznXZmQTxJG8mb1EJfA2UD' 
 })
 
 
