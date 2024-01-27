@@ -2,26 +2,26 @@
   key: {
     remoteJid: '5213318107706@s.whatsapp.net',
     fromMe: false,
-    id: '3EB00371AD7F7D3DD0F80C',
+    id: '3EB04B5450B32D6876DAE3',
     participant: undefined
   },
-  messageTimestamp: 1706314366,
+  messageTimestamp: 1706378461,
   pushName: 'Javi Enriquez',
   broadcast: false,
   message: Message {
-    conversation: 'dsf',
+    conversation: 'sdf',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
   verifiedBizName: 'Javi Enriquez',
-  body: 'dsf',
+  body: 'sdf',
   from: '5213318107706'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_2cea7b30-85c0-4c66-8924-8a43ae72f20e',
-  keyword: 'key_d3d3c15b-df04-4448-b37e-8ad5c6cf4b83',
+  ref: 'ans_c36832ac-b492-4dfb-a2e0-66f1cf72995f',
+  keyword: 'key_0485d971-dca0-4a6a-8b48-d44445965a92',
   answer: 'Hola 👋, Bienvenido a Shades de México,\n' +
     'este es el bot de *recursos humanos*\n' +
     'Estoy aqui para proporcionarte información sobre nuestras vacantes activas\n' +
@@ -38,11 +38,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'b6513bbacdca70f274ee8051a949a51e'
+  refSerialize: '402b50e1c25d41dcad0adbd41dc4f926'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_978ca0da-471c-4d34-8302-499d6367fa12',
-  keyword: 'ans_2cea7b30-85c0-4c66-8924-8a43ae72f20e',
+  ref: 'ans_a096a549-2060-42f2-a569-4c5415725f0f',
+  keyword: 'ans_c36832ac-b492-4dfb-a2e0-66f1cf72995f',
   answer: 'Selecciona la opción deseada\n' +
     '1️⃣ Vacantes Activas\n' +
     '2️⃣ Preguntas Frecuentes\n' +
@@ -66,16 +66,16 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '1133a930928ea4f1d268cd3f425e8377'
+  refSerialize: 'bd0f8af30e917d5306b89774634903ad'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5213318107706@s.whatsapp.net',
     fromMe: false,
-    id: '3EB00D64B85F516C6E1098',
+    id: '3EB0A4C9EDD3372CC0C7FC',
     participant: undefined
   },
-  messageTimestamp: 1706314367,
+  messageTimestamp: 1706378462,
   pushName: 'Javi Enriquez',
   broadcast: false,
   message: Message {
@@ -90,8 +90,8 @@
   from: '5213318107706'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_a98d93e1-c5ad-479c-afd3-e248ad00698a',
-  keyword: 'key_a1f45d47-7d12-44f6-8dc5-c50aae9041fb',
+  ref: 'ans_8a0d949d-a4ce-4c37-a8ab-c539b247b119',
+  keyword: 'key_108b424a-d449-4eec-9d0e-d9fa81ef65eb',
   answer: 'Seleciona la vacante de tu interes',
   options: {
     media: null,
@@ -105,11 +105,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'b736378a8ce147d2b2df8c56d9de330d'
+  refSerialize: 'f25b9ba3137fb8246baa61ae84386971'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_9b5bfdca-e60f-4408-b2ce-c1e7354f16fe',
-  keyword: 'ans_a98d93e1-c5ad-479c-afd3-e248ad00698a',
+  ref: 'ans_155ad2d3-02f0-4d47-975e-d51bc60e81df',
+  keyword: 'ans_8a0d949d-a4ce-4c37-a8ab-c539b247b119',
   answer: '1️⃣ Auxiiar de Almacen General',
   options: {
     media: null,
@@ -123,11 +123,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '6ce25b5673158dcc3bf69c247977b134'
+  refSerialize: '018c704d4e2098c05e0b1e52b6d96a36'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_dc68b3f4-8735-4568-9086-f74dc50735a0',
-  keyword: 'ans_9b5bfdca-e60f-4408-b2ce-c1e7354f16fe',
+  ref: 'ans_ebef6bab-488a-4ed2-88d7-1512bda1c46a',
+  keyword: 'ans_155ad2d3-02f0-4d47-975e-d51bc60e81df',
   answer: '2️⃣ Auxiiar de Almacen & Descargas',
   options: {
     media: null,
@@ -141,11 +141,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '01560ba74a4f545d93f4fd0d0b4f1ca7'
+  refSerialize: '1e2bdd8832faeb1bb91fed41ea21430e'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_ba8efccd-b496-49ee-96c0-40ede67747fd',
-  keyword: 'ans_dc68b3f4-8735-4568-9086-f74dc50735a0',
+  ref: 'ans_a60eff3b-48bb-4a51-bb44-e20f4eb7d51c',
+  keyword: 'ans_ebef6bab-488a-4ed2-88d7-1512bda1c46a',
   answer: '3️⃣ Costureros & Confección de Cortinas',
   options: {
     media: null,
@@ -156,27 +156,28 @@
     idle: null,
     ref: null,
     nested: [
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object]
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
     ],
     keyword: {},
     callback: false
   },
-  refSerialize: '22a1538bb0a68d4fb661a64e58b4da3c'
+  refSerialize: '92ae3d65587c4ef85f1b9e8671df9dcb'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5213318107706@s.whatsapp.net',
     fromMe: false,
-    id: '3EB021003B546CE0916D31',
+    id: '3EB02D88B1328354C54869',
     participant: undefined
   },
-  messageTimestamp: 1706314368,
+  messageTimestamp: 1706378464,
   pushName: 'Javi Enriquez',
   broadcast: false,
   message: Message {
@@ -191,8 +192,8 @@
   from: '5213318107706'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_afc6e606-41e7-4040-a299-b67bd583373c',
-  keyword: 'key_8a5f6c5d-21ef-40a5-8312-29f244ae25e2',
+  ref: 'ans_3ff25999-6119-48f3-9d0e-29230270567e',
+  keyword: 'key_cde721e7-f836-4448-9d9e-649a4c9fd685',
   answer: '*🕛 REQUISITOS*\n' +
     'Nuestros horarios son: \n' +
     '🔸Lunes a Viernes de *9:00 am a 6:00 pm*\n' +
@@ -207,13 +208,13 @@
     ref: null,
     nested: [],
     keyword: {},
-    callback: false
+    callback: true
   },
-  refSerialize: 'dffbc93d48f621f5ec8945d05aeb77ba'
+  refSerialize: '32cdd67359c1b5a8baa8d1c508ce03fa'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_10eab03e-90fa-4594-86a7-ff0c0e98125a',
-  keyword: 'ans_afc6e606-41e7-4040-a299-b67bd583373c',
+  ref: 'ans_52beec15-3199-4701-b953-98526951fc31',
+  keyword: 'ans_3ff25999-6119-48f3-9d0e-29230270567e',
   answer: '*🕛 HORARIO*\n' +
     'Nuestros horarios son: \n' +
     '🔸Lunes a Viernes de *9:00 am a 6:00 pm*\n' +
@@ -228,93 +229,29 @@
     ref: null,
     nested: [],
     keyword: {},
-    callback: false
-  },
-  refSerialize: '66bd342d124026536fcd94ccf06dacb7'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_a7a17cbb-fa77-4cae-9688-e3b1a0fbf7b0',
-  keyword: 'ans_10eab03e-90fa-4594-86a7-ff0c0e98125a',
-  answer: '*📌 UBICACIÓN*\n' +
-    'Es *Calle 4 #2617*,\n' +
-    'Colonia *Zona industrial*\n' +
-    'Entre calles Av. Lopéz de Legaspi & Calle 5\n' +
-    'Cerca de estación tren ligero *Urdañeta*',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'f4d0512153104fda6ee8c805f0e1163f'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_2c265394-7766-4b31-b702-758e0d6ea3b4',
-  keyword: 'ans_a7a17cbb-fa77-4cae-9688-e3b1a0fbf7b0',
-  answer: '__call_action__',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
     callback: true
   },
-  refSerialize: 'cb29c32a1e6c9c8bd6697be0fef9a3e5'
+  refSerialize: '8fda33130e8877d0110b3ee4a117a4a4'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_10c790cd-0464-42ea-ac97-6c735bc76416',
-  keyword: 'ans_2c265394-7766-4b31-b702-758e0d6ea3b4',
-  answer: '*🕛 OFRECEMOS*\n' +
-    '✅ Cotizando al 100%\n' +
-    '✅ Fondo de Ahorro\n' +
-    '✅ PTU Competitivo (*Reparto de Utilidades*)\n' +
-    '✅ Pago semanal\n' +
-    '✅ Bono por recomendado (primer mes $1,000 y tercer mes $1,500)\n' +
-    '✅ Días por Matrimonio (5 Días)\n' +
-    '✅ Apoyo económico al nacimiento de hijos $3,000\n' +
-    '✅ Apoyo económico para útiles escolares (600 por Hijo)\n' +
-    '✅ Seguro de Vida\n' +
-    '✅ Día de Cumpleaños\n' +
-    '✅ Incentivo por Cumpleaños\n' +
-    '✅ Refrigerio diario\n' +
-    '✅ Despensa Anual',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 1000,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '8d30ec82868c7d4663428481af19e3ba'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_bd6c5322-8c4b-44d5-a890-90c68b6ce159',
-  keyword: 'ans_10c790cd-0464-42ea-ac97-6c735bc76416',
+  ref: 'ans_16cbc22e-c21e-47c0-a4aa-4edadf145cc6',
+  keyword: 'ans_52beec15-3199-4701-b953-98526951fc31',
   answer: '*🕛 REQUISITOS*\n' +
     '❗ Mayor de 18  años\n' +
-    '❗ 1 A 2 Años de experiencia en producción y/o Almacenes\n' +
+    '❗ 1 A 2 Años de experiencia en Almacenes\n' +
     '❗ Secundaria Concluida\n' +
-    '❗ Ganas de salir adelante y crecer',
+    '❗ Ganas de trabajar y crecimiento\n' +
+    '\n' +
+    '\n' +
+    '🔸¿Quieres aplicar a esta vacante?, escribe *SI/NO*\n' +
+    '\n' +
+    '🔸¿Quieres revisar otra vacante?, escribe *OTRA*\n' +
+    '\n' +
+    '🔸¿Quieres regresar al menu?, escribe *MENU*',
   options: {
     media: 'https://drive.google.com/uc?id=1bwVPD6PUr9UHNJxxMmtfooCax7wxFZ99',
     buttons: [],
-    capture: false,
+    capture: true,
     child: null,
     delay: 0,
     idle: null,
@@ -323,26 +260,26 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '5da3e3301b0714067f6ee8d38083a177'
+  refSerialize: '758e23e66c42027207eabd01f0ae5762'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5213318107706@s.whatsapp.net',
     fromMe: false,
-    id: '3EB09905B0A84B639DBA52',
+    id: '3EB063C489F97398C12BDD',
     participant: undefined
   },
-  messageTimestamp: 1706314382,
+  messageTimestamp: 1706378469,
   pushName: 'Javi Enriquez',
   broadcast: false,
   message: Message {
-    conversation: 'si',
+    conversation: 'menu',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
   verifiedBizName: 'Javi Enriquez',
-  body: 'si',
+  body: 'menu',
   from: '5213318107706'
 }

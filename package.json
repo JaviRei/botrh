@@ -17,6 +17,7 @@
         "@bot-whatsapp/provider": "0.1.35",
         "@whiskeysockets/baileys": "6.5.0",
         "cache-manager": "5.2.4",
+        "dotenv": "^16.4.1",
         "elevenlabs": "^0.1.1",
         "google-spreadsheet": "^3.3.0",
         "link-preview-js": "^3.0.5",

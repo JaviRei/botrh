@@ -17,7 +17,8 @@ const {flowAlmacen} = require('./flows/flowAlmacen.js')
 const {flowPreguntas} = require('./flows/flowPreguntas.js')
 const {flowDescargas} = require('./flows/flowDescargas.js')
 const {flowCostura} = require('./flows/flowCostura.js')
-const {flowSheet, flowEdit_nombre} = require('./flows/flowSheet.js')
+const {flowSheet} = require('./flows/flowSheet.js')
+// const {flowInfo} = require('./flows/flowVacantes.js')
 
 
 
@@ -61,4 +62,4 @@ const main = async () => {
 
 main()
 
-module.exports= {flowPrincipal}
+module.exports= {flowPrincipal,flowInfo}

@@ -1,3 +1,5 @@
+//require('dotenv').config()
+
 const { addKeyword} = require('@bot-whatsapp/bot')
 const SHEET_KEY = '1dl0o_oLC_AdQGGN99zLvQuReysbS1HU9c0dNj9EzH3Q'
 const { GoogleSpreadsheet } = require('google-spreadsheet');
