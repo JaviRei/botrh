@@ -1,12 +1,6 @@
 
 const { createBot, createProvider, createFlow, addKeyword, EVENTS } = require('@bot-whatsapp/bot')
 
-// const SHEET_KEY = '1dl0o_oLC_AdQGGN99zLvQuReysbS1HU9c0dNj9EzH3Q'
-// const { GoogleSpreadsheet } = require('google-spreadsheet');
-// const fs = require('fs');
-// const doc = new GoogleSpreadsheet(SHEET_KEY)
-// const CREDENTIALS = JSON.parse(fs.readFileSync('./credenciales.json'))
-
 const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
@@ -31,7 +25,7 @@ const flowInfo = addKeyword(['1']).addAnswer('Seleciona la vacante de tu interes
     null,
     [flowAlmacen,flowDescargas,flowCostura])
 
-//['hola', 'ole', 'alo','información','info','día','informacion']
+
 const flowPrincipal = addKeyword(EVENTS.WELCOME)
     .addAnswer(['Hola 👋, Bienvenido a Shades de México,','este es el bot de *recursos humanos*','Estoy aqui para proporcionarte información sobre nuestras vacantes activas','¿Cómo puedo ayudarte?'])
     .addAnswer(
@@ -62,4 +56,3 @@ const main = async () => {
 
 main()
 
-module.exports= {flowPrincipal,flowInfo}
