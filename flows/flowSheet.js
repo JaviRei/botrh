@@ -12,82 +12,8 @@ const { writeFile } = require("node:fs/promises");
 
 let STATUS = {}
 
-// /////////////////////editar datos //////////////////////
-// const flowEdit_nombre = addKeyword('edit')
-// .addAnswer(['Ingresa tu *NOMBRE* nuevamente, hazlo cuidadosamente, solo tienes esta oportunidad'],{capture:true},
-//         async (ctx, {flowDynamic}) => {
-//             telefono = ctx.from
-//             nombre = STATUS[telefono] = {...STATUS[telefono], nombre: ctx.body}   
-//             console.log(nombre)
-//             await doc.useServiceAccountAuth({
-//                 client_email: CREDENTIALS.client_email,
-//                 private_key: CREDENTIALS.private_key
-//             });
-
-//             await doc.loadInfo();
-//             let sheet = doc.sheetsByTitle['Registro_Bot']; 
-//             let roww = await sheet.getRows();
-//             console.log(roww)
-//         for (let index = 0; index < roww.length; index++) {
-//             const row = roww[index];    
-//             if (row.telefono === telefono) {
-               
-//                 let rows = [{
-            
-                
-//                     nombre: STATUS[telefono].nombre,    
-                    
-                    
-//                         }];
-                    
-                    
-//                         await doc.loadInfo();
-//                         let sheet = doc.sheetsByIndex[0];
-//                         for (let index = 0; index < rows.length; index++) {
-//                             const row = rows[index];
-//                         /*await sheet.addRow(row);*/}
-                
-    
-//             }
-            
-//     }
-
-
-
-//             await flowDynamic('Se a editado exitosamente')
-//         }
-// ).addAnswer('¿Deseas editar otro campo?',{capture:true},async (ctx,{flowDynamic,gotoFlow})=>{
-
-//     if(ctx.body === 'si' || 'sii'){
-//         return gotoFlow(editarDatos)
-//     }
-//     else{
-//         await flowDynamic(['Gracias por registrar tu vacante', 'Revisaremos todos tus datos','En caso de que cumplas nuestros requisitos, nos pondremos en contacto contigo']);
-//         await flowDynamic('Todos tus datos seran manejados con total discresion y solo para fines de reclutamiento','Visita nuestro aviso de privacidad www.shadesdemexico.com')
-//     }
-// })
-
-
-// const editarDatos = addKeyword('2')
-//     .addAnswer(
-//         [
-//             'Que campo deseas editar',
-//             '1️⃣ Nombre',
-//             '1️⃣ Apellido',
-//             '1️⃣ Email',
-//             '1️⃣ Edad',
-//             '1️⃣ Vacante',
-//         ],null,null,[flowEdit_nombre]
-//     )
-
-
-// // ////////////////////////////////////////////////////////////////////////
-
-
-
-
 //FLOW INGRESAR DATOS - FORMULARIO
-const flowSheet = addKeyword('3').addAnswer(
+const flowSheet = addKeyword(['3']).addAnswer(
     [
         'Gracias por tu interes en nuestras vacantes,','',
         'Para crear tu solicitud de vacante, ayudanos registrando tus datos personales',
@@ -95,7 +21,7 @@ const flowSheet = addKeyword('3').addAnswer(
         '',
         '🔻Ingresa tus datos de forma correcta, evita ingresar con errores',
         '🔻Ingresa datos veredicos, de lo contrario no se tomara en cuenta tu solicitud\n',
-        '*REGISTRO DE SOLICITUD DE VACANTE*'
+        '*FORMULARIO APLICACIÓN DE VACANTE*'
     ])
 
 
@@ -109,9 +35,8 @@ async (ctx,{flowDynamic}) =>{
     console.log('Nombre ',ctx.body)
     nombre= STATUS[telefono] = {...STATUS[telefono], nombre : ctx.body}                
     telefono = STATUS[telefono] = {...STATUS[telefono], telefono : ctx.from}
-                                                                                      
-                                                                                  
-    await flowDynamic()
+                                                                  
+    //await flowDynamic()
 })
 
 
@@ -124,7 +49,7 @@ async (ctx,{flowDynamic}) =>{
     telefono = ctx.from
     console.log('Apellido ',ctx.body)
     apellido= STATUS[telefono] = {...STATUS[telefono], apellido : ctx.body}
-    await flowDynamic()
+    //await flowDynamic()
 })
 
 //////////////////  Ingresar Correo  ////////////////////////////////////
@@ -138,7 +63,7 @@ async (ctx,{flowDynamic,fallBack}) =>{
     if(ctx.body.includes('@')){
         console.log('Correo ',ctx.body)
         email = STATUS[telefono] = {...STATUS[telefono], email : ctx.body}      //Variable del STATUS
-        await flowDynamic()
+        //await flowDynamic()
     }
     else{
         
@@ -162,7 +87,7 @@ async (ctx,{flowDynamic,fallBack}) =>{
     if(!Number.isNaN(old)){
         edad = STATUS[telefono] = {...STATUS[telefono], edad : ctx.body} 
         console.log('Edad ',old)           //Variable del STATUS
-        await flowDynamic()
+        //await flowDynamic()
     }
     else{
         
