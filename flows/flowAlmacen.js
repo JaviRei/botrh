@@ -1,11 +1,13 @@
 const { addKeyword} = require('@bot-whatsapp/bot');
 const {flowSheet} = require('./flowSheet.js')
-const {flowInfo } = require('../app.js');
+const {flowDescargas} = require('./flowDescargas.js')
+const {flowCostura} = require('./flowCostura.js')
 
 
 
 
-const flowAlmacen = addKeyword(['1'])
+
+const flowAlmacen = addKeyword('1')
 
  .addAnswer(
     ['*🕛 HORARIOS*',
@@ -42,12 +44,19 @@ const flowAlmacen = addKeyword(['1'])
             if(ctx.body == 'si'){
                 return gotoFlow(flowSheet)
             }else if(ctx.body == 'otra'){
-                return gotoFlow(flowInfo)
+                return gotoFlow(flowInfoV)
             }else{
              await flowDynamic([{body:'Gracias por visitarnos, vuelve pronto'}])   
             return endFlow('Para comenzar de nuevo la conversacione escribe ➡️ *HOLA*')}
         }
        )    
      
-    
+       const flowInfoV = addKeyword('1').addAnswer('Seleciona la vacante de tu interes')
+       .addAnswer('1️⃣ Auxiiar de Almacen General')
+       .addAnswer('2️⃣ Auxiiar de Almacen & Descargas')
+       .addAnswer('3️⃣ Costureros & Confección de Cortinas',
+       null,
+       null,
+       [flowDescargas,flowCostura])
+       
 module.exports = {flowAlmacen}

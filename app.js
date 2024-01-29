@@ -12,12 +12,9 @@ const {flowPreguntas} = require('./flows/flowPreguntas.js')
 const {flowDescargas} = require('./flows/flowDescargas.js')
 const {flowCostura} = require('./flows/flowCostura.js')
 const {flowSheet} = require('./flows/flowSheet.js')
-// const {flowInfo} = require('./flows/flowVacantes.js')
 
 
-
-
-const flowInfo = addKeyword(['1']).addAnswer('Seleciona la vacante de tu interes')
+const flowInfo = addKeyword('1').addAnswer('Seleciona la vacante de tu interes')
     .addAnswer('1️⃣ Auxiiar de Almacen General')
     .addAnswer('2️⃣ Auxiiar de Almacen & Descargas')
     .addAnswer('3️⃣ Costureros & Confección de Cortinas',
