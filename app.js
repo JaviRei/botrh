@@ -23,7 +23,7 @@ const flowInfo = addKeyword('1').addAnswer('Seleciona la vacante de tu interes')
     [flowAlmacen,flowDescargas,flowCostura])
 
 
-const flowPrincipal = addKeyword(EVENTS.WELCOME)
+const flowPrincipal = addKeyword('hola')
     .addAnswer(['Hola 👋, Bienvenido a Shades de México,','este es el bot de *recursos humanos*','Estoy aqui para proporcionarte información sobre nuestras vacantes activas','¿Cómo puedo ayudarte?'])
     .addAnswer(
         [
